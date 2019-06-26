@@ -17,3 +17,4 @@ for i in range(n):
 	print(x,y,'r')
 
 plt.plot(x,y)
+plt.show()
