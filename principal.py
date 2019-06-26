@@ -1,9 +1,19 @@
 #!/usr/bin/python
 
-n=10
-s = 1
+import matplotlib.pyplot as plt
+from math import cos, pi
 
-for i in range(1,n+1):
-	s *= i
+n = 100
+x = []
+y = []
 
-print("Hi : " + s)
+a = 0
+h = pi/n
+
+for i in range(n):
+	a += h
+	x.append(h)
+	y.append(cos(h))
+	print(x,y,'r')
+
+plt.plot(x,y)
