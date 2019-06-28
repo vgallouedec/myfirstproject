@@ -16,5 +16,5 @@ for i in range(n):
 	y.append(cos(h))
 	print(x,y,'r')
 
-plt.plot(x,y)
+plt.plot(x,y,'bo')
 plt.show()
