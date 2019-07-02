@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-PATH_SITE='/home/valentin/Site'
+PATH_SITE='/var/www/html/Site/'
 FILE_INDEX='index.html'
 
 echo 'Start of the deployment...'
