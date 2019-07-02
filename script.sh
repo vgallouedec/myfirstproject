@@ -19,6 +19,7 @@ echo 'Copy of the new website...'
 mkdir $PATH_SITE
 cp $FILE_INDEX "$PATH_SITE/$FILE_INDEX"
 chmod 755 "$PATH_SITE/$FILE_INDEX"
+chmod 755 $PATH_SITE
 
 echo 'Copy succeed'
 echo 'End of deployment !'
